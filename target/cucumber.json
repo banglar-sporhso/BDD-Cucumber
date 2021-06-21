@@ -1,0 +1,125 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3374960200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the TechFios login page",
+            "match": {
+              "location": "StepDefinition.User_is_on_the_TechFios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16015936000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeMethod()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should be able to login with valid credentials",
+        "description": "",
+        "id": "validate-techfios-login-functionality;user-should-be-able-to-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 3610437400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2754326000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinition.User_enters_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2419191800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinition.user_enters_password_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7953623300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on signin button",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49107600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should land on Dashboard page",
+            "match": {
+              "location": "StepDefinition.user_should_land_on_Dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate TechFios Login Functionality",
+    "description": "",
+    "id": "validate-techfios-login-functionality",
+    "keyword": "Feature",
+    "uri": "features/Login.feature"
+  }
+]
